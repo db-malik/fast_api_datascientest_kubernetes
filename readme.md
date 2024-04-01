@@ -64,7 +64,19 @@ docker login
 
 ### 2. Build and Push Docker Images: After logging in, rebuild the Docker images if necessary and push them to Docker Hub using the following commands
 
+fast api container
+
 ```bash
 docker build -t your_username/datascientest_user_api:v1 -f path/to/Dockerfile_fastapi .
 docker push your_username/datascientest_user_api:v1
+```
+
+docker build -t your_username/mysql-db:latest -f path/to/Dockerfile_mysql .
+docker push your_username/mysql-db:latest
+
+datascientest mysql container
+
+```bash
+docker pull datascientest/mysql-k8s:1.0.0
+docker push your_username/mysql-k8s:1.0.0
 ```
