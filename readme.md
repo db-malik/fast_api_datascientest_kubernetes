@@ -71,9 +71,6 @@ docker build -t your_username/datascientest_user_api:v1 -f path/to/Dockerfile_fa
 docker push your_username/datascientest_user_api:v1
 ```
 
-docker build -t your_username/mysql-db:latest -f path/to/Dockerfile_mysql .
-docker push your_username/mysql-db:latest
-
 datascientest mysql container
 
 ```bash
