@@ -39,6 +39,13 @@ kubectl apply -f my-ingress-eval.yaml
 kubectl get all
 ```
 
+## Testing the Application
+
+Once the deployment is successful, you can test the API service by accessing the defined endpoints.
+
+You can access the API documentation in your local network by navigating to <http://127.0.0.1/docs>
+local network
+
 ## Clean Up (Optional)
 
 After testing, you can clean up the deployed resources using the following commands:
