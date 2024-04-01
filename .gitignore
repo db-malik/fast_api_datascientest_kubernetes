@@ -1,0 +1,21 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore Docker build context
+.dockerignore
+
+# Ignore local development files
+.vscode/
+.idea/
+*.log
+
+# Ignore package dependencies
+venv/
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
